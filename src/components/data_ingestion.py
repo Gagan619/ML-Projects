@@ -1,1 +1,10 @@
-## Data ingestion means data reading
+# Data ingestion means data reading
+import os
+import sys
+from src.exception import CustoException
+from src.logger import logging
+import pandas as pd
+
+from sklearn.model_selection import train_test_split
+from dataclasses import dataclass
+
